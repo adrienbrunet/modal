@@ -47,6 +47,10 @@ export default {
     cancelText: {
       type: String,
       default: 'Cancel'
+    },
+    closable: {
+      type: Boolean,
+      default: true
     }
   },
 
