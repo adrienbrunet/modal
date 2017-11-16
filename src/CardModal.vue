@@ -15,8 +15,12 @@
       <div class="modal-background" @click="deactive"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">{{ title }}</p>
-          <button class="delete" @click="deactive"></button>
+          <p class="modal-card-title">
+            <slot name="title">
+            {{ title }}
+            </slot>
+            <button class="delete is-pulled-right" @click="deactive"></button>
+          </p>
         </header>
         <section class="modal-card-body">
           <slot></slot>
