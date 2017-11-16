@@ -2,6 +2,12 @@
 
 Modal component for Vue Bulma.
 
+## WHAT THE FORK
+This fork exists because I had build issues (npm run build stuff...) 
+See PR #17
+
+I intend to modify this library to my will and do not guarantee any support whatsoever.
+
 
 ## Installation
 
